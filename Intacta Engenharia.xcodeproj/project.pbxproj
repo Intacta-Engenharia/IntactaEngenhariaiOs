@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044475FB2322D09B00B50463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044475FA2322D09B00B50463 /* AppDelegate.swift */; };
+		044475FD2322D09B00B50463 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044475FC2322D09B00B50463 /* FirstViewController.swift */; };
+		044475FF2322D09B00B50463 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044475FE2322D09B00B50463 /* SecondViewController.swift */; };
+		044476022322D09B00B50463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044476002322D09B00B50463 /* Main.storyboard */; };
+		044476042322D09C00B50463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044476032322D09C00B50463 /* Assets.xcassets */; };
+		044476072322D09C00B50463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044476052322D09C00B50463 /* LaunchScreen.storyboard */; };
+		044476122322D09C00B50463 /* Intacta_EngenhariaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044476112322D09C00B50463 /* Intacta_EngenhariaTests.swift */; };
+		0444761D2322D09C00B50463 /* Intacta_EngenhariaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0444761C2322D09C00B50463 /* Intacta_EngenhariaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0444760E2322D09C00B50463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044475EF2322D09B00B50463 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044475F62322D09B00B50463;
+			remoteInfo = "Intacta Engenharia";
+		};
+		044476192322D09C00B50463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044475EF2322D09B00B50463 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044475F62322D09B00B50463;
+			remoteInfo = "Intacta Engenharia";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044475F72322D09B00B50463 /* Intacta Engenharia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intacta Engenharia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044475FA2322D09B00B50463 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		044475FC2322D09B00B50463 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		044475FE2322D09B00B50463 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		044476012322D09B00B50463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044476032322D09C00B50463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044476062322D09C00B50463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		044476082322D09C00B50463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0444760D2322D09C00B50463 /* Intacta EngenhariaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intacta EngenhariaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044476112322D09C00B50463 /* Intacta_EngenhariaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intacta_EngenhariaTests.swift; sourceTree = "<group>"; };
+		044476132322D09C00B50463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044476182322D09C00B50463 /* Intacta EngenhariaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intacta EngenhariaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0444761C2322D09C00B50463 /* Intacta_EngenhariaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intacta_EngenhariaUITests.swift; sourceTree = "<group>"; };
+		0444761E2322D09C00B50463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044475F42322D09B00B50463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0444760A2322D09C00B50463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044476152322D09C00B50463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044475EE2322D09B00B50463 = {
+			isa = PBXGroup;
+			children = (
+				044475F92322D09B00B50463 /* Intacta Engenharia */,
+				044476102322D09C00B50463 /* Intacta EngenhariaTests */,
+				0444761B2322D09C00B50463 /* Intacta EngenhariaUITests */,
+				044475F82322D09B00B50463 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		044475F82322D09B00B50463 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044475F72322D09B00B50463 /* Intacta Engenharia.app */,
+				0444760D2322D09C00B50463 /* Intacta EngenhariaTests.xctest */,
+				044476182322D09C00B50463 /* Intacta EngenhariaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044475F92322D09B00B50463 /* Intacta Engenharia */ = {
+			isa = PBXGroup;
+			children = (
+				044475FA2322D09B00B50463 /* AppDelegate.swift */,
+				044475FC2322D09B00B50463 /* FirstViewController.swift */,
+				044475FE2322D09B00B50463 /* SecondViewController.swift */,
+				044476002322D09B00B50463 /* Main.storyboard */,
+				044476032322D09C00B50463 /* Assets.xcassets */,
+				044476052322D09C00B50463 /* LaunchScreen.storyboard */,
+				044476082322D09C00B50463 /* Info.plist */,
+			);
+			path = "Intacta Engenharia";
+			sourceTree = "<group>";
+		};
+		044476102322D09C00B50463 /* Intacta EngenhariaTests */ = {
+			isa = PBXGroup;
+			children = (
+				044476112322D09C00B50463 /* Intacta_EngenhariaTests.swift */,
+				044476132322D09C00B50463 /* Info.plist */,
+			);
+			path = "Intacta EngenhariaTests";
+			sourceTree = "<group>";
+		};
+		0444761B2322D09C00B50463 /* Intacta EngenhariaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0444761C2322D09C00B50463 /* Intacta_EngenhariaUITests.swift */,
+				0444761E2322D09C00B50463 /* Info.plist */,
+			);
+			path = "Intacta EngenhariaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044475F62322D09B00B50463 /* Intacta Engenharia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044476212322D09C00B50463 /* Build configuration list for PBXNativeTarget "Intacta Engenharia" */;
+			buildPhases = (
+				044475F32322D09B00B50463 /* Sources */,
+				044475F42322D09B00B50463 /* Frameworks */,
+				044475F52322D09B00B50463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Intacta Engenharia";
+			productName = "Intacta Engenharia";
+			productReference = 044475F72322D09B00B50463 /* Intacta Engenharia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0444760C2322D09C00B50463 /* Intacta EngenhariaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044476242322D09C00B50463 /* Build configuration list for PBXNativeTarget "Intacta EngenhariaTests" */;
+			buildPhases = (
+				044476092322D09C00B50463 /* Sources */,
+				0444760A2322D09C00B50463 /* Frameworks */,
+				0444760B2322D09C00B50463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0444760F2322D09C00B50463 /* PBXTargetDependency */,
+			);
+			name = "Intacta EngenhariaTests";
+			productName = "Intacta EngenhariaTests";
+			productReference = 0444760D2322D09C00B50463 /* Intacta EngenhariaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		044476172322D09C00B50463 /* Intacta EngenhariaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044476272322D09C00B50463 /* Build configuration list for PBXNativeTarget "Intacta EngenhariaUITests" */;
+			buildPhases = (
+				044476142322D09C00B50463 /* Sources */,
+				044476152322D09C00B50463 /* Frameworks */,
+				044476162322D09C00B50463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0444761A2322D09C00B50463 /* PBXTargetDependency */,
+			);
+			name = "Intacta EngenhariaUITests";
+			productName = "Intacta EngenhariaUITests";
+			productReference = 044476182322D09C00B50463 /* Intacta EngenhariaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044475EF2322D09B00B50463 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Intacta Engenharia";
+				TargetAttributes = {
+					044475F62322D09B00B50463 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					0444760C2322D09C00B50463 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 044475F62322D09B00B50463;
+					};
+					044476172322D09C00B50463 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 044475F62322D09B00B50463;
+					};
+				};
+			};
+			buildConfigurationList = 044475F22322D09B00B50463 /* Build configuration list for PBXProject "Intacta Engenharia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044475EE2322D09B00B50463;
+			productRefGroup = 044475F82322D09B00B50463 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044475F62322D09B00B50463 /* Intacta Engenharia */,
+				0444760C2322D09C00B50463 /* Intacta EngenhariaTests */,
+				044476172322D09C00B50463 /* Intacta EngenhariaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044475F52322D09B00B50463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044476072322D09C00B50463 /* LaunchScreen.storyboard in Resources */,
+				044476042322D09C00B50463 /* Assets.xcassets in Resources */,
+				044476022322D09B00B50463 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0444760B2322D09C00B50463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044476162322D09C00B50463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044475F32322D09B00B50463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044475FF2322D09B00B50463 /* SecondViewController.swift in Sources */,
+				044475FB2322D09B00B50463 /* AppDelegate.swift in Sources */,
+				044475FD2322D09B00B50463 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044476092322D09C00B50463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044476122322D09C00B50463 /* Intacta_EngenhariaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044476142322D09C00B50463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0444761D2322D09C00B50463 /* Intacta_EngenhariaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0444760F2322D09C00B50463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044475F62322D09B00B50463 /* Intacta Engenharia */;
+			targetProxy = 0444760E2322D09C00B50463 /* PBXContainerItemProxy */;
+		};
+		0444761A2322D09C00B50463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044475F62322D09B00B50463 /* Intacta Engenharia */;
+			targetProxy = 044476192322D09C00B50463 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		044476002322D09B00B50463 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044476012322D09B00B50463 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		044476052322D09C00B50463 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044476062322D09C00B50463 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0444761F2322D09C00B50463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		044476202322D09C00B50463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044476222322D09C00B50463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSWH8869S5;
+				INFOPLIST_FILE = "Intacta Engenharia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "intacta.Intacta-Engenharia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		044476232322D09C00B50463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSWH8869S5;
+				INFOPLIST_FILE = "Intacta Engenharia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "intacta.Intacta-Engenharia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		044476252322D09C00B50463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSWH8869S5;
+				INFOPLIST_FILE = "Intacta EngenhariaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "intacta.Intacta-EngenhariaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intacta Engenharia.app/Intacta Engenharia";
+			};
+			name = Debug;
+		};
+		044476262322D09C00B50463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSWH8869S5;
+				INFOPLIST_FILE = "Intacta EngenhariaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "intacta.Intacta-EngenhariaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intacta Engenharia.app/Intacta Engenharia";
+			};
+			name = Release;
+		};
+		044476282322D09C00B50463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSWH8869S5;
+				INFOPLIST_FILE = "Intacta EngenhariaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "intacta.Intacta-EngenhariaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Intacta Engenharia";
+			};
+			name = Debug;
+		};
+		044476292322D09C00B50463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSWH8869S5;
+				INFOPLIST_FILE = "Intacta EngenhariaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "intacta.Intacta-EngenhariaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Intacta Engenharia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044475F22322D09B00B50463 /* Build configuration list for PBXProject "Intacta Engenharia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0444761F2322D09C00B50463 /* Debug */,
+				044476202322D09C00B50463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044476212322D09C00B50463 /* Build configuration list for PBXNativeTarget "Intacta Engenharia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044476222322D09C00B50463 /* Debug */,
+				044476232322D09C00B50463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044476242322D09C00B50463 /* Build configuration list for PBXNativeTarget "Intacta EngenhariaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044476252322D09C00B50463 /* Debug */,
+				044476262322D09C00B50463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044476272322D09C00B50463 /* Build configuration list for PBXNativeTarget "Intacta EngenhariaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044476282322D09C00B50463 /* Debug */,
+				044476292322D09C00B50463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044475EF2322D09B00B50463 /* Project object */;
+}
