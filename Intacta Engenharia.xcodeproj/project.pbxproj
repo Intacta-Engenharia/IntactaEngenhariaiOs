@@ -3,18 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0409CFF623294EDE0006834B /* Obra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409CFF523294EDE0006834B /* Obra.swift */; };
+		0409CFFA232968050006834B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409CFF9232968050006834B /* TableViewCell.swift */; };
+		040D4DF72326B20600826615 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D4DF62326B20600826615 /* ViewExtensions.swift */; };
+		040D4DF92326CD6A00826615 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D4DF82326CD6A00826615 /* LoginViewController.swift */; };
+		040D4DFB2326D92700826615 /* ObrasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D4DFA2326D92700826615 /* ObrasViewController.swift */; };
+		040FB51A23AA785600B4EA36 /* DiariesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FB51923AA785600B4EA36 /* DiariesViewController.swift */; };
+		0443AD862493F8F00064F94A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443AD852493F8F00064F94A /* UserModel.swift */; };
+		0443AD89249410480064F94A /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443AD88249410480064F94A /* AppUtils.swift */; };
 		044475FB2322D09B00B50463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044475FA2322D09B00B50463 /* AppDelegate.swift */; };
-		044475FD2322D09B00B50463 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044475FC2322D09B00B50463 /* FirstViewController.swift */; };
-		044475FF2322D09B00B50463 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044475FE2322D09B00B50463 /* SecondViewController.swift */; };
+		044475FF2322D09B00B50463 /* EndServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044475FE2322D09B00B50463 /* EndServicesViewController.swift */; };
 		044476022322D09B00B50463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044476002322D09B00B50463 /* Main.storyboard */; };
 		044476042322D09C00B50463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044476032322D09C00B50463 /* Assets.xcassets */; };
 		044476072322D09C00B50463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044476052322D09C00B50463 /* LaunchScreen.storyboard */; };
 		044476122322D09C00B50463 /* Intacta_EngenhariaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044476112322D09C00B50463 /* Intacta_EngenhariaTests.swift */; };
 		0444761D2322D09C00B50463 /* Intacta_EngenhariaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0444761C2322D09C00B50463 /* Intacta_EngenhariaUITests.swift */; };
+		0444762B2322D0D400B50463 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0444762A2322D0D400B50463 /* GoogleService-Info.plist */; };
+		0456F1E723ABF2C000C5BFD8 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456F1E623ABF2C000C5BFD8 /* Diary.swift */; };
+		0456F1E923ABFE8C00C5BFD8 /* DiaryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456F1E823ABFE8C00C5BFD8 /* DiaryController.swift */; };
+		0458E2CC23281FFF0086057F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458E2CB23281FFF0086057F /* User.swift */; };
+		0459275C23AD45E300DCE0FB /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459275B23AD45E300DCE0FB /* Section.swift */; };
+		0459275E23AD548F00DCE0FB /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459275D23AD548F00DCE0FB /* PhotoCell.swift */; };
+		0466100F249A64B100E542D2 /* DiaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466100E249A64B100E542D2 /* DiaryModel.swift */; };
+		04C67F3024993CA3007A1ED7 /* ObraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C67F2F24993CA3007A1ED7 /* ObraModel.swift */; };
+		04E8196324F5B2E100E72ABD /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8196224F5B2E100E72ABD /* Document.swift */; };
+		04E8196524F5B36C00E72ABD /* DocumentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8196424F5B36C00E72ABD /* DocumentModel.swift */; };
+		04EC231723DF64BC0032DF02 /* DocumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC231623DF64BC0032DF02 /* DocumentsViewController.swift */; };
+		41F18198EE2303612A2FD050 /* Pods_Intacta_EngenhariaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8240BC4C3F42CF49AE2528 /* Pods_Intacta_EngenhariaTests.framework */; };
+		649A2AAEBFB5E7EFD095A51B /* Pods_Intacta_EngenhariaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B0BA33C855A490475EA88A /* Pods_Intacta_EngenhariaUITests.framework */; };
+		7AA90E9B1F6506C4D15156F2 /* Pods_Intacta_Engenharia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20151B5998BAC195C03D74EF /* Pods_Intacta_Engenharia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +56,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0409CFF523294EDE0006834B /* Obra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obra.swift; sourceTree = "<group>"; };
+		0409CFF9232968050006834B /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		040D4DF62326B20600826615 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		040D4DF82326CD6A00826615 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		040D4DFA2326D92700826615 /* ObrasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObrasViewController.swift; sourceTree = "<group>"; };
+		040FB51923AA785600B4EA36 /* DiariesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiariesViewController.swift; sourceTree = "<group>"; };
+		0443AD852493F8F00064F94A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		0443AD88249410480064F94A /* AppUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
 		044475F72322D09B00B50463 /* Intacta Engenharia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intacta Engenharia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		044475FA2322D09B00B50463 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		044475FC2322D09B00B50463 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		044475FE2322D09B00B50463 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		044475FE2322D09B00B50463 /* EndServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndServicesViewController.swift; sourceTree = "<group>"; };
 		044476012322D09B00B50463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		044476032322D09C00B50463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		044476062322D09C00B50463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +77,28 @@
 		044476182322D09C00B50463 /* Intacta EngenhariaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intacta EngenhariaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0444761C2322D09C00B50463 /* Intacta_EngenhariaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intacta_EngenhariaUITests.swift; sourceTree = "<group>"; };
 		0444761E2322D09C00B50463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0444762A2322D0D400B50463 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0456F1E623ABF2C000C5BFD8 /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		0456F1E823ABFE8C00C5BFD8 /* DiaryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryController.swift; sourceTree = "<group>"; };
+		0458E2CB23281FFF0086057F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0459275B23AD45E300DCE0FB /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		0459275D23AD548F00DCE0FB /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		0466100E249A64B100E542D2 /* DiaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryModel.swift; sourceTree = "<group>"; };
+		04C67F2F24993CA3007A1ED7 /* ObraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObraModel.swift; sourceTree = "<group>"; };
+		04E8196224F5B2E100E72ABD /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		04E8196424F5B36C00E72ABD /* DocumentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentModel.swift; sourceTree = "<group>"; };
+		04EC231623DF64BC0032DF02 /* DocumentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsViewController.swift; sourceTree = "<group>"; };
+		20151B5998BAC195C03D74EF /* Pods_Intacta_Engenharia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Intacta_Engenharia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A7A7A6A08783CDF0F91F9C0 /* Pods-Intacta Engenharia-Intacta EngenhariaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intacta Engenharia-Intacta EngenhariaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Intacta Engenharia-Intacta EngenhariaUITests/Pods-Intacta Engenharia-Intacta EngenhariaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		52B0BA33C855A490475EA88A /* Pods_Intacta_EngenhariaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Intacta_EngenhariaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		544955F6ECA4EB1FF45F0108 /* Pods-Intacta Engenharia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intacta Engenharia.release.xcconfig"; path = "Pods/Target Support Files/Pods-Intacta Engenharia/Pods-Intacta Engenharia.release.xcconfig"; sourceTree = "<group>"; };
+		81ECF5A48DC54653C0D4AB35 /* Pods-Intacta Engenharia-Intacta EngenhariaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intacta Engenharia-Intacta EngenhariaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Intacta Engenharia-Intacta EngenhariaUITests/Pods-Intacta Engenharia-Intacta EngenhariaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		881DF65B69DBC3523525CC48 /* Pods-Intacta EngenhariaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intacta EngenhariaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Intacta EngenhariaUITests/Pods-Intacta EngenhariaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8D8240BC4C3F42CF49AE2528 /* Pods_Intacta_EngenhariaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Intacta_EngenhariaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC93A9A8AAAF186439B31E93 /* Pods-Intacta EngenhariaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intacta EngenhariaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Intacta EngenhariaTests/Pods-Intacta EngenhariaTests.release.xcconfig"; sourceTree = "<group>"; };
+		AEBD25E59AE20C4ED7C8EB68 /* Pods-Intacta Engenharia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intacta Engenharia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Intacta Engenharia/Pods-Intacta Engenharia.debug.xcconfig"; sourceTree = "<group>"; };
+		C4AAEA411259240E10194BBB /* Pods-Intacta EngenhariaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intacta EngenhariaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Intacta EngenhariaTests/Pods-Intacta EngenhariaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DBEE9D6E8E1F3074B9E003F6 /* Pods-Intacta EngenhariaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intacta EngenhariaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Intacta EngenhariaUITests/Pods-Intacta EngenhariaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AA90E9B1F6506C4D15156F2 /* Pods_Intacta_Engenharia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41F18198EE2303612A2FD050 /* Pods_Intacta_EngenhariaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +122,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				649A2AAEBFB5E7EFD095A51B /* Pods_Intacta_EngenhariaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0443AD822493F1620064F94A /* Bean */ = {
+			isa = PBXGroup;
+			children = (
+				04E8196224F5B2E100E72ABD /* Document.swift */,
+				0456F1E623ABF2C000C5BFD8 /* Diary.swift */,
+				0409CFF523294EDE0006834B /* Obra.swift */,
+				0458E2CB23281FFF0086057F /* User.swift */,
+				0459275B23AD45E300DCE0FB /* Section.swift */,
+			);
+			path = Bean;
+			sourceTree = "<group>";
+		};
+		0443AD842493F85D0064F94A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0443AD852493F8F00064F94A /* UserModel.swift */,
+				04C67F2F24993CA3007A1ED7 /* ObraModel.swift */,
+				0466100E249A64B100E542D2 /* DiaryModel.swift */,
+				04E8196424F5B36C00E72ABD /* DocumentModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0443AD872494101C0064F94A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0443AD88249410480064F94A /* AppUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		044475EE2322D09B00B50463 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +167,8 @@
 				044476102322D09C00B50463 /* Intacta EngenhariaTests */,
 				0444761B2322D09C00B50463 /* Intacta EngenhariaUITests */,
 				044475F82322D09B00B50463 /* Products */,
+				3922882C9324E2165B93C151 /* Pods */,
+				7390329F476EDB833C897062 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +185,24 @@
 		044475F92322D09B00B50463 /* Intacta Engenharia */ = {
 			isa = PBXGroup;
 			children = (
+				0443AD872494101C0064F94A /* Utils */,
+				0443AD842493F85D0064F94A /* Model */,
+				0443AD822493F1620064F94A /* Bean */,
+				0444762A2322D0D400B50463 /* GoogleService-Info.plist */,
 				044475FA2322D09B00B50463 /* AppDelegate.swift */,
-				044475FC2322D09B00B50463 /* FirstViewController.swift */,
-				044475FE2322D09B00B50463 /* SecondViewController.swift */,
+				040D4DF82326CD6A00826615 /* LoginViewController.swift */,
+				040D4DFA2326D92700826615 /* ObrasViewController.swift */,
+				040FB51923AA785600B4EA36 /* DiariesViewController.swift */,
+				0456F1E823ABFE8C00C5BFD8 /* DiaryController.swift */,
+				044475FE2322D09B00B50463 /* EndServicesViewController.swift */,
+				04EC231623DF64BC0032DF02 /* DocumentsViewController.swift */,
 				044476002322D09B00B50463 /* Main.storyboard */,
+				0459275D23AD548F00DCE0FB /* PhotoCell.swift */,
+				0409CFF9232968050006834B /* TableViewCell.swift */,
 				044476032322D09C00B50463 /* Assets.xcassets */,
-				044476052322D09C00B50463 /* LaunchScreen.storyboard */,
 				044476082322D09C00B50463 /* Info.plist */,
+				040D4DF62326B20600826615 /* ViewExtensions.swift */,
+				044476052322D09C00B50463 /* LaunchScreen.storyboard */,
 			);
 			path = "Intacta Engenharia";
 			sourceTree = "<group>";
@@ -128,6 +225,31 @@
 			path = "Intacta EngenhariaUITests";
 			sourceTree = "<group>";
 		};
+		3922882C9324E2165B93C151 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEBD25E59AE20C4ED7C8EB68 /* Pods-Intacta Engenharia.debug.xcconfig */,
+				544955F6ECA4EB1FF45F0108 /* Pods-Intacta Engenharia.release.xcconfig */,
+				81ECF5A48DC54653C0D4AB35 /* Pods-Intacta Engenharia-Intacta EngenhariaUITests.debug.xcconfig */,
+				3A7A7A6A08783CDF0F91F9C0 /* Pods-Intacta Engenharia-Intacta EngenhariaUITests.release.xcconfig */,
+				C4AAEA411259240E10194BBB /* Pods-Intacta EngenhariaTests.debug.xcconfig */,
+				AC93A9A8AAAF186439B31E93 /* Pods-Intacta EngenhariaTests.release.xcconfig */,
+				DBEE9D6E8E1F3074B9E003F6 /* Pods-Intacta EngenhariaUITests.debug.xcconfig */,
+				881DF65B69DBC3523525CC48 /* Pods-Intacta EngenhariaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7390329F476EDB833C897062 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20151B5998BAC195C03D74EF /* Pods_Intacta_Engenharia.framework */,
+				8D8240BC4C3F42CF49AE2528 /* Pods_Intacta_EngenhariaTests.framework */,
+				52B0BA33C855A490475EA88A /* Pods_Intacta_EngenhariaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +257,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 044476212322D09C00B50463 /* Build configuration list for PBXNativeTarget "Intacta Engenharia" */;
 			buildPhases = (
+				2C13B5E3A68233E25051D1BB /* [CP] Check Pods Manifest.lock */,
 				044475F32322D09B00B50463 /* Sources */,
 				044475F42322D09B00B50463 /* Frameworks */,
 				044475F52322D09B00B50463 /* Resources */,
+				83A81986FC748BE8777FF3DA /* [CP] Embed Pods Frameworks */,
+				C68D2E8CA997288C7629C99B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +277,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 044476242322D09C00B50463 /* Build configuration list for PBXNativeTarget "Intacta EngenhariaTests" */;
 			buildPhases = (
+				CEF2A74F4D65A15263AFD0D9 /* [CP] Check Pods Manifest.lock */,
 				044476092322D09C00B50463 /* Sources */,
 				0444760A2322D09C00B50463 /* Frameworks */,
 				0444760B2322D09C00B50463 /* Resources */,
@@ -170,6 +296,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 044476272322D09C00B50463 /* Build configuration list for PBXNativeTarget "Intacta EngenhariaUITests" */;
 			buildPhases = (
+				D2BE5EF650D78C886A1B3942 /* [CP] Check Pods Manifest.lock */,
 				044476142322D09C00B50463 /* Sources */,
 				044476152322D09C00B50463 /* Frameworks */,
 				044476162322D09C00B50463 /* Resources */,
@@ -233,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				044476072322D09C00B50463 /* LaunchScreen.storyboard in Resources */,
+				0444762B2322D0D400B50463 /* GoogleService-Info.plist in Resources */,
 				044476042322D09C00B50463 /* Assets.xcassets in Resources */,
 				044476022322D09B00B50463 /* Main.storyboard in Resources */,
 			);
@@ -254,14 +382,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C13B5E3A68233E25051D1BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Intacta Engenharia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83A81986FC748BE8777FF3DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Intacta Engenharia/Pods-Intacta Engenharia-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Intacta Engenharia/Pods-Intacta Engenharia-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Intacta Engenharia/Pods-Intacta Engenharia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C68D2E8CA997288C7629C99B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Intacta Engenharia/Pods-Intacta Engenharia-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Intacta Engenharia/Pods-Intacta Engenharia-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Intacta Engenharia/Pods-Intacta Engenharia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEF2A74F4D65A15263AFD0D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Intacta EngenhariaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2BE5EF650D78C886A1B3942 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Intacta EngenhariaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		044475F32322D09B00B50463 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				044475FF2322D09B00B50463 /* SecondViewController.swift in Sources */,
+				04EC231723DF64BC0032DF02 /* DocumentsViewController.swift in Sources */,
+				044475FF2322D09B00B50463 /* EndServicesViewController.swift in Sources */,
+				04E8196524F5B36C00E72ABD /* DocumentModel.swift in Sources */,
+				0456F1E923ABFE8C00C5BFD8 /* DiaryController.swift in Sources */,
+				0409CFF623294EDE0006834B /* Obra.swift in Sources */,
 				044475FB2322D09B00B50463 /* AppDelegate.swift in Sources */,
-				044475FD2322D09B00B50463 /* FirstViewController.swift in Sources */,
+				0409CFFA232968050006834B /* TableViewCell.swift in Sources */,
+				0443AD89249410480064F94A /* AppUtils.swift in Sources */,
+				040D4DF72326B20600826615 /* ViewExtensions.swift in Sources */,
+				040D4DFB2326D92700826615 /* ObrasViewController.swift in Sources */,
+				04C67F3024993CA3007A1ED7 /* ObraModel.swift in Sources */,
+				0459275E23AD548F00DCE0FB /* PhotoCell.swift in Sources */,
+				0459275C23AD45E300DCE0FB /* Section.swift in Sources */,
+				0466100F249A64B100E542D2 /* DiaryModel.swift in Sources */,
+				0443AD862493F8F00064F94A /* UserModel.swift in Sources */,
+				040D4DF92326CD6A00826615 /* LoginViewController.swift in Sources */,
+				040FB51A23AA785600B4EA36 /* DiariesViewController.swift in Sources */,
+				0458E2CC23281FFF0086057F /* User.swift in Sources */,
+				0456F1E723ABF2C000C5BFD8 /* Diary.swift in Sources */,
+				04E8196324F5B2E100E72ABD /* Document.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,17 +670,22 @@
 		};
 		044476222322D09C00B50463 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEBD25E59AE20C4ED7C8EB68 /* Pods-Intacta Engenharia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GSWH8869S5;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = 9C765K85VW;
 				INFOPLIST_FILE = "Intacta Engenharia/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "intacta.Intacta-Engenharia";
+				MARKETING_VERSION = 1.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.intacta.Intacta-Engenharia";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Intacta Engenharia";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,17 +693,22 @@
 		};
 		044476232322D09C00B50463 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 544955F6ECA4EB1FF45F0108 /* Pods-Intacta Engenharia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GSWH8869S5;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = 9C765K85VW;
 				INFOPLIST_FILE = "Intacta Engenharia/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "intacta.Intacta-Engenharia";
+				MARKETING_VERSION = 1.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.intacta.Intacta-Engenharia";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Intacta Engenharia";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -470,6 +716,7 @@
 		};
 		044476252322D09C00B50463 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4AAEA411259240E10194BBB /* Pods-Intacta EngenhariaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +738,7 @@
 		};
 		044476262322D09C00B50463 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC93A9A8AAAF186439B31E93 /* Pods-Intacta EngenhariaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +760,7 @@
 		};
 		044476282322D09C00B50463 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBEE9D6E8E1F3074B9E003F6 /* Pods-Intacta EngenhariaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +781,7 @@
 		};
 		044476292322D09C00B50463 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 881DF65B69DBC3523525CC48 /* Pods-Intacta EngenhariaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

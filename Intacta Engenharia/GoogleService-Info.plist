@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>348974861311-uqg4sctbgeal2epfvjgc2tu7fgoruimj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.348974861311-uqg4sctbgeal2epfvjgc2tu7fgoruimj</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>348974861311-9ig8aelg77opips0kve7bg137q1rr7a7.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBgngqbMA97xu71JOs778FSaRSxsRHKARk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>348974861311</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>intacta.Intacta-Engenharia</string>
+	<key>PROJECT_ID</key>
+	<string>intactaengenharia-eireli</string>
+	<key>STORAGE_BUCKET</key>
+	<string>intactaengenharia-eireli.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:348974861311:ios:51bb6e210792bd17f735ca</string>
+	<key>DATABASE_URL</key>
+	<string>https://intactaengenharia-eireli.firebaseio.com</string>
+</dict>
+</plist>
